@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mydiv{
+            padding: 20px;
+
+            height: 100vh;
+            position: absolute;
+            background-image: url("");
+        }
+        #mydiv2{
+            height: 100vh;
+            background-color: rgba(107, 106, 106,0.5);
+            text-align: center;
+            padding-top: 250px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div id="mydiv">
+        <h2>CALCULATOR</h2>
+    <br>
+        value1: <input type="number" id="value1">
+    <br>
+    <br>
+    value2: <input type="number" id="value2">
+    <br>
+    <br>
+    <button id="add">add</button><br><br>
+    <button id="sub">sub</button><br><br>
+    <button id="division">division</button>
+    </div>
+
+    <div id="mydiv2">
+        CALCULATOR RESULT
+        <br>
+        <input type="reset" value="reset" id="resetbutton">
+        <p id="result"></p>
+    </div>
+
+    <script src="../js/calc.js"></script>
+
+</body>
+</html>
